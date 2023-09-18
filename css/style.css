@@ -1,6 +1,95 @@
-/*# sourceMappingURL=style.css.map */
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
 }
+
+.all-header {
+  font-size: 15px;
+  background-color: black;
+  align-items: center;
+}
+.all-header .logo img {
+  width: 60%;
+}
+.all-header .nav a {
+  margin-right: 20px;
+  color: white;
+}
+.all-header .icons i {
+  color: white;
+}
+
+#First {
+  height: 600px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-color: rgb(69, 49, 3);
+  align-items: center;
+  display: flex;
+}
+#First .first-content i {
+  font-size: 100px;
+  margin-left: 40px;
+  color: white;
+  position: relative;
+}
+#First .zhr1 {
+  font-size: 130px;
+  color: rgb(228, 164, 45);
+}
+#First .zhr2 {
+  font-size: 130px;
+  color: white;
+  position: absolute;
+  left: 310px;
+}
+#First a {
+  background-color: black;
+  padding: 30px 150px 30px 30px;
+  margin-left: 30px;
+}
+#First p {
+  font-size: 50px;
+  margin-left: 30px;
+  color: white;
+}
+#First .zhr3 {
+  color: white;
+}
+#First .zhr3 {
+  color: white;
+  font-size: 25px;
+  margin-right: 20px;
+}
+#First .zhr4 {
+  color: rgb(228, 164, 45);
+  font-size: 25px;
+  overflow: visible;
+  position: absolute;
+}
+
+#Second {
+  background-color: rgb(169, 139, 84);
+}
+#Second .card img {
+  width: 100%;
+  border-radius: 50%;
+}
+#Second .cards {
+  display: flex;
+  justify-content: space-around;
+}
+#Second .card {
+  width: 32%;
+  text-align: center;
+}
+#Second .card h5 {
+  color: rgb(135, 77, 2);
+  font-size: 20px;
+}
+#Second .card p {
+  color: white;
+  font-size: 15px;
+}/*# sourceMappingURL=style.css.map */
